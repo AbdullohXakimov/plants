@@ -46,7 +46,7 @@
             type="password"
             placeholder="password"
           />
-          <img src="../../public/Hide.png" alt="" />
+          
         </div>
         <p class="px-5 text-end text-green-400">Forgot Password?</p>
         <button class="bg-[#46A358] px-[138px] py-4 m-5 text-white rounded hover:bg-[#266933]">
