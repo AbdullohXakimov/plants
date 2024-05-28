@@ -70,7 +70,11 @@
           </div>
         </div>
         <div class="grid grid-cols-3 gap-x-16 gap-y-[44px] mt-5">
-          <Intro_card2 v-for="item in 9" />
+          <template v-for="(item, index) in intro2Div2" :key="index">
+            <Intro_card2
+              :item="item"
+            />
+          </template>
         </div>
       </div>
     </div>
@@ -93,11 +97,58 @@ export default {
         { name: "Gardening", amount: "(13)" },
         { name: "Accessories", amount: "(18)" },
       ],
-      plantSizes : [
-  { name: "Small", amount: "(119)" },
-  { name: "Medium", amount: "(86)" },
-  { name: "Large", amount: "(78)" }
-]
+      plantSizes: [
+        { name: "Small", amount: "(119)" },
+        { name: "Medium", amount: "(86)" },
+        { name: "Large", amount: "(78)" },
+      ],
+      intro2Div2: [
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+        {
+          img: "../../public/image8.png",
+          name: "Barberton Daisy",
+          price: "$119.00",
+        },
+      ],
     };
   },
 
