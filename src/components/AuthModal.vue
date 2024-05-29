@@ -152,7 +152,7 @@
             type="password"
             placeholder="password"
           />
-          <img src="../../public/Hide.png" alt="" />
+
         </div>
         <div class="px-5 py-2">
           <input
@@ -160,7 +160,7 @@
             type="password"
             placeholder="Connfirm password"
           />
-          <img src="../../public/Hide.png" alt="" />
+
         </div>
         
         <button class="bg-[#46A358] px-[130px] py-4 m-5 text-white rounded hover:bg-[#266933]">
