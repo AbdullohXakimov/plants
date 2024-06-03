@@ -72,11 +72,12 @@
         <div>
             <p class="font-bold text-[18px] leading-[16px] mb-[20px]">Social Media</p>
             <div class="flex justify-between">
-                <p class="border p-[7px] rounded-[5px]"><img src="../../public/Facebook.png" alt=""></p>
-                <p class="border p-[7px] rounded-[5px]"><img src="../../public/Instagram.png" alt=""></p>
-                <p class="border p-[7px] rounded-[5px]"><img src="../../public/Twitter.png" alt=""></p>
-                <p class="border p-[7px] rounded-[5px]"><img src="../../public/Linkedin.png" alt=""></p>
-                <p class="border p-[7px] rounded-[5px]"><img src="../../public/Union.png" alt=""></p>
+                <p class="border p-[7px] rounded-[5px]"><img src="/down.png" alt=""></p>
+                <p class="border p-[7px] rounded-[5px]"><img src="/down.png" alt=""></p>
+                <p class="border p-[7px] rounded-[5px]"><img src="/down.png" alt=""></p>
+                <p class="border p-[7px] rounded-[5px]"><img src="/down.png" alt=""></p>
+                <p class="border p-[7px] rounded-[5px]"><img src="/down.png" alt=""></p>
+                
             </div>
             <p class="font-bold text-[18px] leading-[16px] mb-[13px] mt-[33px]">We accept</p>
             <img src="../../public/image 16 (1).png" alt="">
