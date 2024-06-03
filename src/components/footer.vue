@@ -33,7 +33,6 @@
             </div>
         </div>
         <div class="flex items-center gap-3">
-            <img src="../../public/Message.png" alt="">
             <p class="font-normal text-[14px] leading-[22px]">contact@greenshop.com</p>
         </div>
         <div class="flex items-center gap-3">
