@@ -27,7 +27,6 @@
     <div class="flex gap-[100px] pt-[26px] pb-[20px] pl-[23px] bg-[#46A3581A]">
         <img src="/Group.png" alt="" class="w-[150px] h-[34.3px]">
         <div class="flex items-center gap-3">
-            <img src="../../public/Location.png" alt="" class="">
             <div>
                 <p class="font-normal text-[14px] leading-[22px]">70 West Buckingham Ave.</p>
                 <p class="font-normal text-[14px] leading-[22px]"> Farmingdale, NY 11735</p>
