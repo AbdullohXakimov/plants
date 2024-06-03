@@ -26,7 +26,7 @@
       <button
         class="border rounded-[4px] border-[#E5E5E5] py-1 px-3 hover:bg-[#46A358] hover:text-white"
       >
-        <img src="../public/down.png" alt="" />
+
       </button>
     </div>
     <AfterIntro />

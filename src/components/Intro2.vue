@@ -45,7 +45,7 @@
           <div class="flex gap-2 items-center text-[#3D3D3D] text-[18px]">
             <p>Sort by:</p>
             <p>Default sorting</p>
-            <img src="../../public/down.png" alt="Sort" />
+
           </div>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-5">
