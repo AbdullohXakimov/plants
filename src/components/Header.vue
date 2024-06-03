@@ -2,7 +2,8 @@
   <div class="container">
     <div class="flex md:hidden py-5 justify-between relative">
       <div>
-        <svg class="absolute left-4 top-[34px]"
+        <svg
+          class="absolute left-4 top-[34px]"
           width="22"
           height="22"
           viewBox="0 0 22 22"
@@ -23,7 +24,7 @@
           placeholder="Find your plants"
         />
       </div>
-      <div class="bg-green-400  p-4 px-18 rounded">
+      <div class="bg-green-400 p-4 px-18 rounded">
         <svg
           width="17"
           height="17"
@@ -72,13 +73,15 @@
         <p class="text-[#46A358] font-bold">GREENSHOP</p>
       </div>
       <div class="md:flex justify-between items-center gap-20">
-        <a
-          href="#"
-          class="font-normal text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
-          >Home</a
+        <router-link to="/" class="font-normal text-[#3D3D3D] hover:text-[#3D3D3D]
+          hover:font-bold">Home</router-link
         >
-        <a href="#" class="text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
-          >Shop</a
+        <router-link :to="{
+      name: 'shop',
+      params: { img: `../../public/image8.png`, name: 'shop', price: '$119' },
+    }"
+          class="text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
+          >Shop</router-link
         >
         <a href="#" class="text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
           >Plant Care</a
