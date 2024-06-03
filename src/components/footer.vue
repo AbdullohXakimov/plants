@@ -80,7 +80,6 @@
                 
             </div>
             <p class="font-bold text-[18px] leading-[16px] mb-[13px] mt-[33px]">We accept</p>
-            <img src="../../public/image 16 (1).png" alt="">
         </div>
     </div>
   </div>
